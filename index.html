@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shah Group | SJS Mobile | Afiya Opticians | Shah Transport</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #f4f6fa;
+      color: #222;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background: linear-gradient(90deg, #0077ff, #00c389);
+      color: white;
+      text-align: center;
+      padding: 25px 10px;
+    }
+
+    .logo {
+      font-size: 28px;
+      font-weight: 700;
+    }
+
+    nav {
+      margin-top: 12px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: white;
+      margin: 0 15px;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffe600;
+    }
+
+    section {
+      padding: 50px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    section h2 {
+      text-align: center;
+      font-size: 28px;
+      color: #0077ff;
+      margin-bottom: 10px;
+    }
+
+    section p {
+      text-align: center;
+      font-size: 16px;
+      color: #444;
+      margin-bottom: 20px;
+    }
+
+    .business {
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      margin: 20px 0;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .business h3 {
+      color: #00a36c;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      margin-left: 30px;
+      color: #555;
+      margin-bottom: 15px;
+    }
+
+    /* FORM */
+    form {
+      background: #f9fafc;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      text-align: left;
+    }
+
+    form label {
+      display: block;
+      margin-top: 10px;
+      font-weight: 600;
+      color: #333;
+    }
+
+    form input, form select, form textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      margin-top: 5px;
+    }
+
+    form button {
+      margin-top: 15px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      background: #0077ff;
+      color: white;
+      font-weight: 600;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    form button:hover {
+      background: #005ec1;
+    }
+
+    /* CONTACT */
+    .contact {
+      background-color: #0077ff;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+      border-radius: 8px;
+      margin-top: 40px;
+    }
+
+    footer {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      nav a { display: block; margin: 8px 0; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">🌍 Shah Group</div>
+    <p>SJS Mobile Shop | Afiya Opticians | Shah Transport</p>
+    <nav>
+      <a href="#mobile">SJS Mobile</a>
+      <a href="#opticians">Afiya Opticians</a>
+      <a href="#transport">Shah Transport</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- SJS Mobile Shop -->
+  <section id="mobile">
+    <div class="business">
+      <h2>📱 SJS Mobile Shop</h2>
+      <p>हमारे यहाँ सभी ब्रांड के नए मोबाइल फोन, चार्जर, कवर, स्क्रीन गार्ड, मोबाइल रिपेयरिंग (स्क्रीन या बैटरी रिप्लेसमेंट), रिचार्ज और बिल पेमेंट की सुविधा है।</p>
+      <ul>
+        <li>नए मोबाइल और एक्सेसरीज़</li>
+        <li>मोबाइल रिपेयरिंग</li>
+        <li>Recharge & Bill Payment</li>
+      </ul>
+
+      <form action="https://formspree.io/forms" method="POST">
+        <label>आपका नाम:</label>
+        <input type="text" name="name" required>
+
+        <label>मोबाइल नंबर:</label>
+        <input type="text" name="phone" required>
+
+        <label>कौन-सा प्रोडक्ट / सर्विस चाहिए?</label>
+        <select name="service" required>
+          <option value="">Select</option>
+          <option>New Mobile</option>
+          <option>Mobile Repairing</option>
+          <option>Accessories</option>
+          <option>Recharge / Bill Payment</option>
+        </select>
+
+        <label>Extra Message:</label>
+        <textarea name="message" rows="3"></textarea>
+
+        <button type="submit">Request Send करें</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Afiya Opticians -->
+  <section id="opticians">
+    <div class="business">
+      <h2>👓 Afiya Opticians</h2>
+      <p>यहाँ Computerized Eye Testing, Designer Frames, Contact Lenses और Sunglasses (UV Protection) की पूरी रेंज उपलब्ध है।</p>
+      <ul>
+        <li>Computerized Eye Testing</li>
+        <li>Designer Frames & Chashme</li>
+        <li>Contact Lenses & Sunglasses</li>
+      </ul>
+
+      <form action="https://formspree.io/f/mvgojvwn" method="POST">
+        <label>आपका नाम:</label>
+        <input type="text" name="name" required>
+
+        <label>मोबाइल नंबर:</label>
+        <input type="text" name="phone" required>
+
+        <label>कौन-सी सर्विस चाहिए?</label>
+        <select name="service" required>
+          <option value="">Select</option>
+          <option>Eye Testing</option>
+          <option>Frames / Glasses</option>
+          <option>Contact Lenses</option>
+          <option>Sunglasses</option>
+        </select>
+
+        <label>Extra Message:</label>
+        <textarea name="message" rows="3"></textarea>
+
+        <button type="submit">Request Send करें</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Shah Transport -->
+  <section id="transport">
+    <div class="business">
+      <h2>🚛 Shah Transport</h2>
+      <p>हम Local और Long-distance Transport के लिए Loading, Unloading और Reliable Delivery Service प्रदान करते हैं।</p>
+      <ul>
+        <li>Local Goods Transport</li>
+        <li>Inter-City Transport</li>
+        <li>Loading / Unloading</li>
+      </ul>
+
+      <form action="https://formspree.io/f/mvgojvwn" method="POST">
+        <label>आपका नाम:</label>
+        <input type="text" name="name" required>
+
+        <label>मोबाइल नंबर:</label>
+        <input type="text" name="phone" required>
+
+        <label>सर्विस सेलेक्ट करें:</label>
+        <select name="service" required>
+          <option value="">Select</option>
+          <option>Local Transport</option>
+          <option>Inter-City Transport</option>
+          <option>Goods Loading / Unloading</option>
+        </select>
+
+        <label>Extra Message:</label>
+        <textarea name="message" rows="3"></textarea>
+
+        <button type="submit">Request Send करें</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2>📞 Contact Us</h2>
+    <p><b>Mobile:</b> 9967754027</p>
+    <p><b>Email:</b> afiyaopticians@gmail.com</p>
+    <p><b>Address:</b> Ambedkar chawk, baneli Tetwala (East), Maharashtra, 421102, India</p>
+  </section>
+
+  <footer>
+    © 2025 Shah Group| All Rights Reserved
+  </footer>
+
+</body>
+</html>
